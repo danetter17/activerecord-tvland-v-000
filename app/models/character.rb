@@ -4,5 +4,5 @@ class Character < ActiveRecord::Base
   belongs_to :network
   
   def say_that_thing_you_always_say
-    
+    return "#{self.name}"
 end
