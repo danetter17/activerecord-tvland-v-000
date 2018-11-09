@@ -3,5 +3,5 @@ class Actor < ActiveRecord::Base
  has_many :shows, through: :characters
  
  def full_name
-   name = "self.#{"
+   name = "#{self.first_name} "
 end
