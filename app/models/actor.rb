@@ -10,5 +10,5 @@ class Actor < ActiveRecord::Base
    roles = []
    array_of_characters = self.characters.map {|character| character.name}
    array_of_shows = self.shows.map {|show| show.name}
-   role = array_of_characters
+   role = array_of_characters.concat 
 end
