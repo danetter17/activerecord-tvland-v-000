@@ -8,5 +8,5 @@ class Actor < ActiveRecord::Base
  
  def list_roles
    roles = []
-   
+   array_of_characters = 
 end
